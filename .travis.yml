@@ -1,0 +1,11 @@
+language: php
+
+php: '7.0'
+
+script:
+  - composer install
+  - phpunit
+
+notifications:
+  email:
+    on_success: never
